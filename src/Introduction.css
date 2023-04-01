@@ -1,0 +1,24 @@
+#introDiv {
+  position: relative;
+}
+
+#introImage {
+  width: 100vw;
+}
+
+#introText {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 3em;
+}
+
+@media screen and (max-width: 1000px) {
+  #introImage {
+    height: 100vh;
+    object-fit: cover;
+    object-position: 70% 0%;
+  }
+
+}
